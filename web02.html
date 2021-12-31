@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <form name="form">
+            <table style="width: 100%;">
+            <tr>
+            <td>Mata Uang Asing</td>
+            <td>
+            <select name="uangasing" onchange="konversiuang()">
+            <option value="pilih">-- Pilih Mata Uang Asing --</option>
+            <option value="USD">United State Dollar</option>
+            <option value="SGD">Singapore Dollar</option>
+            <option value="AUD">Australian Dollar</option>
+            <option value="EURO">Euro</option>
+            <option value="CNY">Yuan</option>
+            </select>
+            </td>
+            </tr>
+            
+            <tr>
+            <td><label for="nilai">Nilai</label></td>
+            <td><input type="text" name="nilai"></td>
+            </tr>
+            
+            <tr>
+            <td><label for="kurs">Hasil Kurs</label></td>
+            <td><input type="text" name="kurs"></td>
+            </tr>
+            
+            <tr>
+            <td><button type="submit" class="btn btn-primary" onClick="konversiuang()">SUBMIT</button></td>
+            <td><button type="reset" class="btn btn-danger">RESET</button></td>
+            </tr>
+            
+            </table>
+            </form> 
+          
+        
+    </head>
+    </html>
